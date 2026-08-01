@@ -1,8 +1,23 @@
 aid: peanut
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peanut.png
 name: Peanut
-description: 'Peanut is a company surfaced as a portfolio company of eqt-ventures, index-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: social-network. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Peanut is a social networking app founded in 2017 by Michelle Kennedy that connects
+  women through all stages of womanhood — from fertility and pregnancy to motherhood and menopause.
+  With over 5 million users, Peanut offers a swipe-based discovery experience to find like-minded
+  women nearby, interest and life-stage communities, group and audio chat, direct messaging, and
+  expert-reviewed content. It is a consumer mobile application (iOS and Android) with no public
+  developer API surface. Added to the API Evangelist network as a portfolio-company profile.'
 url: https://raw.githubusercontent.com/api-evangelist/peanut/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Social Network
+- Women
+- Motherhood
+- Fertility
+- Pregnancy
+- Menopause
+- Community
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.peanut-app.io/
+- type: Blog
+  url: https://peanut-app.io/blog
+- type: Support
+  url: https://www.peanut-app.io/help
+- type: TermsOfService
+  url: https://peanut-app.io/terms
+- type: PrivacyPolicy
+  url: https://peanut-app.io/privacy
+- type: GettingStarted
+  url: https://peanut-app.io/download
+- type: LLMsTxt
+  url: llms/peanut-llms.txt
+- type: DomainSecurity
+  url: security/peanut-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
